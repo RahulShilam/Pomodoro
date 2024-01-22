@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+//This is a clone of https://pomofocus.io/ website. It is developed on react v 18 using React Hooks.
+//developed by Rahul S
+
+import React from "react";
+import MainBody from "./components/MainBody";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainBody />
+    </>
   );
 }
 
